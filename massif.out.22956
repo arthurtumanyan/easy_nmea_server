@@ -1,0 +1,360 @@
+desc: (none)
+cmd: dist/Debug/GNU-Linux-x86/easy_nmea_server
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=180765
+mem_heap_B=20
+mem_heap_extra_B=20
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=182039
+mem_heap_B=36
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=182147
+mem_heap_B=59
+mem_heap_extra_B=45
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=182267
+mem_heap_B=66
+mem_heap_extra_B=62
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=182387
+mem_heap_B=73
+mem_heap_extra_B=79
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=182493
+mem_heap_B=78
+mem_heap_extra_B=98
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=182589
+mem_heap_B=88
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=182688
+mem_heap_B=98
+mem_heap_extra_B=126
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=182787
+mem_heap_B=109
+mem_heap_extra_B=139
+mem_stacks_B=0
+heap_tree=detailed
+n1: 109 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n9: 109 0x4069AD: xmalloc (functions.c:88)
+  n0: 23 0x40524B: main (easy_nmea_server.c:23)
+  n0: 20 0x4051BD: main (easy_nmea_server.c:15)
+  n0: 16 0x405203: main (easy_nmea_server.c:19)
+  n0: 11 0x405417: main (easy_nmea_server.c:51)
+  n0: 10 0x40536B: main (easy_nmea_server.c:39)
+  n0: 10 0x4053C1: main (easy_nmea_server.c:45)
+  n0: 7 0x4052DB: main (easy_nmea_server.c:31)
+  n0: 7 0x405293: main (easy_nmea_server.c:27)
+  n0: 5 0x405323: main (easy_nmea_server.c:35)
+#-----------
+snapshot=10
+#-----------
+time=182884
+mem_heap_B=119
+mem_heap_extra_B=153
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=182981
+mem_heap_B=135
+mem_heap_extra_B=161
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=183090
+mem_heap_B=146
+mem_heap_extra_B=174
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=183169
+mem_heap_B=159
+mem_heap_extra_B=185
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=183216
+mem_heap_B=173
+mem_heap_extra_B=195
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=192438
+mem_heap_B=741
+mem_heap_extra_B=211
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=193619
+mem_heap_B=741
+mem_heap_extra_B=211
+mem_stacks_B=0
+heap_tree=detailed
+n2: 741 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 568 0x52C6379: __fopen_internal (iofopen.c:73)
+  n1: 568 0x406C34: FileExists (functions.c:215)
+   n0: 568 0x405B64: main (easy_nmea_server.c:206)
+ n12: 173 0x4069AD: xmalloc (functions.c:88)
+  n0: 23 0x40524B: main (easy_nmea_server.c:23)
+  n0: 20 0x4051BD: main (easy_nmea_server.c:15)
+  n0: 19 in 3 places, all below massif's threshold (01.00%)
+  n0: 16 0x4054A7: main (easy_nmea_server.c:60)
+  n0: 16 0x405203: main (easy_nmea_server.c:19)
+  n0: 14 0x405532: main (easy_nmea_server.c:68)
+  n0: 13 0x40551E: main (easy_nmea_server.c:67)
+  n0: 11 0x405417: main (easy_nmea_server.c:51)
+  n0: 11 0x4054EF: main (easy_nmea_server.c:64)
+  n0: 10 0x40545F: main (easy_nmea_server.c:55)
+  n0: 10 0x40536B: main (easy_nmea_server.c:39)
+  n0: 10 0x4053C1: main (easy_nmea_server.c:45)
+#-----------
+snapshot=17
+#-----------
+time=193619
+mem_heap_B=173
+mem_heap_extra_B=195
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=199740
+mem_heap_B=188
+mem_heap_extra_B=204
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=199857
+mem_heap_B=756
+mem_heap_extra_B=220
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=201320
+mem_heap_B=1586
+mem_heap_extra_B=230
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=204284
+mem_heap_B=1586
+mem_heap_extra_B=230
+mem_stacks_B=0
+heap_tree=peak
+n4: 1586 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 830 0x530B238: __tzfile_read (tzfile.c:291)
+  n1: 830 0x530A802: tzset_internal (tzset.c:444)
+   n1: 830 0x530AB91: __tz_convert (tzset.c:629)
+    n1: 830 0x5308BC7: ctime (ctime.c:27)
+     n1: 830 0x407FFA: writeToCustomLog (logs.c:31)
+      n0: 830 0x405BC1: main (easy_nmea_server.c:210)
+ n2: 568 0x52C6379: __fopen_internal (iofopen.c:73)
+  n1: 568 0x530AEAB: __tzfile_read (tzfile.c:181)
+   n1: 568 0x530A802: tzset_internal (tzset.c:444)
+    n1: 568 0x530AB91: __tz_convert (tzset.c:629)
+     n1: 568 0x5308BC7: ctime (ctime.c:27)
+      n1: 568 0x407FFA: writeToCustomLog (logs.c:31)
+       n0: 568 0x405BC1: main (easy_nmea_server.c:210)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n3: 173 0x4069AD: xmalloc (functions.c:88)
+  n0: 130 in 12 places, all below massif's threshold (01.00%)
+  n0: 23 0x40524B: main (easy_nmea_server.c:23)
+  n0: 20 0x4051BD: main (easy_nmea_server.c:15)
+ n0: 15 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=22
+#-----------
+time=204284
+mem_heap_B=1018
+mem_heap_extra_B=214
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=204354
+mem_heap_B=1038
+mem_heap_extra_B=234
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=204479
+mem_heap_B=1059
+mem_heap_extra_B=253
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=204630
+mem_heap_B=1081
+mem_heap_extra_B=271
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=205268
+mem_heap_B=1101
+mem_heap_extra_B=291
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=205530
+mem_heap_B=1122
+mem_heap_extra_B=310
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=230180
+mem_heap_B=1102
+mem_heap_extra_B=290
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=230215
+mem_heap_B=1081
+mem_heap_extra_B=271
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=230250
+mem_heap_B=1059
+mem_heap_extra_B=253
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=230285
+mem_heap_B=1039
+mem_heap_extra_B=233
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1039 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 830 0x530B238: __tzfile_read (tzfile.c:291)
+  n1: 830 0x530A802: tzset_internal (tzset.c:444)
+   n1: 830 0x530AB91: __tz_convert (tzset.c:629)
+    n1: 830 0x5308BC7: ctime (ctime.c:27)
+     n1: 830 0x407FFA: writeToCustomLog (logs.c:31)
+      n0: 830 0x405BC1: main (easy_nmea_server.c:210)
+ n7: 173 0x4069AD: xmalloc (functions.c:88)
+  n0: 71 in 8 places, all below massif's threshold (01.00%)
+  n0: 23 0x40524B: main (easy_nmea_server.c:23)
+  n0: 20 0x4051BD: main (easy_nmea_server.c:15)
+  n0: 16 0x405203: main (easy_nmea_server.c:19)
+  n0: 16 0x4054A7: main (easy_nmea_server.c:60)
+  n0: 14 0x405532: main (easy_nmea_server.c:68)
+  n0: 13 0x40551E: main (easy_nmea_server.c:67)
+ n1: 21 0x5309D0A: __tzstring (tzset.c:106)
+  n1: 21 0x530B740: __tzfile_read (tzfile.c:464)
+   n1: 21 0x530A802: tzset_internal (tzset.c:444)
+    n1: 21 0x530AB91: __tz_convert (tzset.c:629)
+     n1: 21 0x5308BC7: ctime (ctime.c:27)
+      n1: 21 0x407FFA: writeToCustomLog (logs.c:31)
+       n0: 21 0x405BC1: main (easy_nmea_server.c:210)
+ n1: 15 0x52E08C0: strdup (strdup.c:42)
+  n1: 15 0x530A7EF: tzset_internal (tzset.c:441)
+   n1: 15 0x530AB91: __tz_convert (tzset.c:629)
+    n1: 15 0x5308BC7: ctime (ctime.c:27)
+     n1: 15 0x407FFA: writeToCustomLog (logs.c:31)
+      n0: 15 0x405BC1: main (easy_nmea_server.c:210)
+ n0: 0 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=32
+#-----------
+time=230320
+mem_heap_B=1018
+mem_heap_extra_B=214
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=230354
+mem_heap_B=1003
+mem_heap_extra_B=205
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=231683
+mem_heap_B=173
+mem_heap_extra_B=195
+mem_stacks_B=0
+heap_tree=empty

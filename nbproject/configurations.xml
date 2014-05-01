@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>easy_nmea_server.h</itemPath>
+      <itemPath>prototypes.h</itemPath>
+      <itemPath>server.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>configuration.c</itemPath>
+      <itemPath>easy_nmea_server.c</itemPath>
+      <itemPath>functions.c</itemPath>
+      <itemPath>logs.c</itemPath>
+      <itemPath>netfunc.c</itemPath>
+      <itemPath>server.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>enmea.cfg</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandLine>-zmuldefs -fPIC -Wshadow -Wall -Werror=all -Wextra</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <asmTool>
+          <architecture>2</architecture>
+          <warningLevel>2</warningLevel>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/easy_nmea_server</output>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs libconfig`</linkerOptionItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <packaging>
+        <packType>Debian</packType>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}"
+                            from="${OUTPUT_PATH}"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+        <packInfoList>
+          <packInfoListElem name="Package" value="easynmeaserver" mandatory="true"/>
+          <packInfoListElem name="Version" value="1.0" mandatory="true"/>
+          <packInfoListElem name="Architecture" value="amd64" mandatory="false"/>
+          <packInfoListElem name="Maintainer" value="arthur" mandatory="false"/>
+          <packInfoListElem name="Description" value="..." mandatory="false"/>
+        </packInfoList>
+      </packaging>
+      <item path="configuration.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="easy_nmea_server.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="easy_nmea_server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="enmea.cfg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="functions.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="logs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="netfunc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="prototypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="server.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="server.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>-zmuldefs -fPIC -Wshadow -Wall -Werror=all</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+          <warningLevel>2</warningLevel>
+        </asmTool>
+        <linkerTool>
+          <stripSymbols>true</stripSymbols>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs libconfig`</linkerOptionItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerOptionItem>-lcunit</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="configuration.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="easy_nmea_server.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="easy_nmea_server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="enmea.cfg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="functions.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="logs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="netfunc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="prototypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="server.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="server.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
